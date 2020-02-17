@@ -17,6 +17,7 @@ Thumbs.db
 
 # composer vendor dir
 /vendor
+/_protected/vendor
 
 # composer itself is not needed
 composer.phar
@@ -28,3 +29,8 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
+
+# ignore runtime
+_protected/frontend/runtime
+_protected/backend/runtime
+/runtime
