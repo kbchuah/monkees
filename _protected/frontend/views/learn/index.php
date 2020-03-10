@@ -4,174 +4,80 @@ use yii\web\View;
 /* @var $this yii\web\View */
 $this->title = Yii::t('app', Yii::$app->name) . ' | ' . Yii::t('app', 'Learn With Us');
 
-$this->registerJs(
-    "
-    (function($) {
-
-    	$(document).ready(function() {
-    		setupFade();
-    		setupClickToScroll();
-    		setupPostAnimation();
-    		setupScrollToTop();
-         enableScrollAbortion();
-
-    		// Trigger window.scroll, this will initiate some of the scripts
-    		$(window).scroll();
-      });
-
-
-      // Allow user to cancel scroll animation by manually scrolling
-      function enableScrollAbortion() {
-        var viewport = $('html, body');
-        viewport.on('scroll mousedown DOMMouseScroll mousewheel keyup', function(e) {
-            if ( e.which > 0 || e.type === 'mousedown' || e.type === 'mousewheel') {
-                 viewport.stop();
-            }
-        });
-      }
-
-    	function setupScrollToTop() {
-    		var scrollSpeed = 750;
-    		$('.trigger-scroll-to-top').click(function(e) {
-    			e.preventDefault();
-    			$('html, body').animate({
-    				scrollTop: 0
-    			}, scrollSpeed);
-    		});
-    	}
-
-
-    	function setupPostAnimation() {
-    		var posts = $('.post-wrapper .post');
-    		$(window).on('scroll resize', function() {
-
-    			var currScroll = $(window).scrollTop() > $(document).scrollTop() ? $(window).scrollTop() : $(document).scrollTop(),
-    				windowHeight = $(window).height(), // Needs to be here because window can resize
-    				overScroll = Math.ceil(windowHeight*.20),
-    				treshhold = (currScroll + windowHeight) - overScroll;
-
-    			posts.each(function() {
-
-    				var post = $(this),
-    					postScroll = post.offset().top
-
-    				if(postScroll > treshhold) {
-    					post.addClass('hidden');
-    				} else {
-    					post.removeClass('hidden');
-    				}
-
-    			});
-
-    		});
-    	}
-
-    	function setupFade() {
-
-    		var posts = $('.post-wrapper .post').reverse(),
-    			stemWrapper = $('.stem-wrapper'),
-    			halfScreen = $(window).height() / 2;
-
-    		$(window).on('scroll resize', function() {
-
-    			delay(function() {
-
-    				var currScroll = $(window).scrollTop() > $(document).scrollTop() ? $(window).scrollTop() : $(document).scrollTop(),
-    					scrollSplit = currScroll + halfScreen;
-
-    				posts.removeClass('active').each(function() {
-
-    					var post = $(this),
-    						postOffset = post.offset().top;
-
-    					if(scrollSplit > postOffset) {
-
-    						// Add active class to fade in
-    						post.addClass('active')
-
-    						// Get post color
-    						var color = post.data('stem-color') ? post.data('stem-color') : null,
-    							allColors = 'color-green color-yellow color-white'
-
-    						stemWrapper.removeClass(allColors);
-
-    						if(color !== null) {
-    							stemWrapper.addClass('color-' + color);
-    						}
-
-    						return false;
-    					}
-
-    				});
-    			}, 20);
-
-    		});
-
-    	}
-
-
-    	function setupClickToScroll(post) {
-
-    		var scrollSpeed = 750;
-
-    		$('.post-wrapper .post .stem-overlay .icon').click(function(e) {
-    			e.preventDefault();
-
-    			var icon = $(this),
-    				post = icon.closest('.post'),
-    				postTopOffset = post.offset().top,
-    				postHeight = post.height(),
-    				halfScreen = $(window).height() / 2,
-    				scrollTo = postTopOffset - halfScreen + (postHeight/2);
-
-    			$('html, body').animate({
-    				scrollTop: scrollTo
-    			}, scrollSpeed);
-    		});
-
-    	}
-
-    })(jQuery);
-
-
-
-
-    /*==========  Helpers  ==========*/
-
-
-    // Timeout function
-    var delay = (function(){
-    	var timer = 0;
-    	return function(callback, ms){
-    		clearTimeout (timer);
-    		timer = setTimeout(callback, ms);
-    	};
-    })();
-
-    $.fn.reverse = function() {
-        return this.pushStack(this.get().reverse(), arguments);
-    };
-    ",
-    View::POS_READY
-);
 ?>
 
-<?php /*
 <div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-bg4.jpg">
-  <div class="container inner pt-250 pb-250 text-center">
-    <h1 class="heading">Ready to dive in?</h1>
-    <p class="lead larger">Explore our list of available courses below.<br>
-      We have everything from beginner to advanced and specialty courses
+  <div class="container inner pt-250 pb-250">
+    <h1 class="heading text-center">Ready to dive in?</h1>
+    <p class="lead larger text-center">
+      We have everything from beginner to advanced levels and specialty courses.<br />
+      Explore our list of available courses below.<br />
+      <i class="si-arrows_double-arrow-down"></i>
     </p>
-    <div class="space10"></div>
+    <div class="space30"></div>
+    <h2 class="section-title mb-40 text-center">Beginner? <span class="typer" data-delay="100" data-delim=":" data-words="Not a problem.:Check out our courses for beginners."></span><span class="cursor" data-owner="typer"></span> </h2>
+    <div class="container-timeline">
+       <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>Bubble Maker</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+             <ul class="icon-list list-green">
+                <li><i class="fa fa-angle-right"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+                <li><i class="fa fa-angle-right"></i>Nullam quis risus eget urna mollis ornare.</li>
+                <li><i class="fa fa-angle-right"></i>Donec id elit non mi porta gravida at eget.</li>
+                <li><i class="fa fa-angle-right"></i>Fusce dapibus, tellus ac cursus commodo.</li>
+             </ul>
+          </div>
+       </div>
+       <div class="timeline-block timeline-block-left">
+         <div class="marker"></div>
+         <div class="timeline-content">
+            <h3>Scuba Try Out <i class="si-ecommerce_star-favorites"></i></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+            <ul class="icon-list list-green">
+               <li><i class="fa fa-angle-right"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+               <li><i class="fa fa-angle-right"></i>Nullam quis risus eget urna mollis ornare.</li>
+               <li><i class="fa fa-angle-right"></i>Donec id elit non mi porta gravida at eget.</li>
+               <li><i class="fa fa-angle-right"></i>Fusce dapibus, tellus ac cursus commodo.</li>
+            </ul>
+         </div>
+       </div>
+    </div>
+
+    <h2 class="section-title mb-40 text-center">Ready to get certified? <span class="typer" data-delay="100" data-delim=":" data-words="Choose from these options."></span><span class="cursor" data-owner="typer"></span> </h2>
+    <div class="container-timeline">
+       <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h3>Bubble Maker</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+             <ul class="icon-list list-green">
+                <li><i class="fa fa-angle-right"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+                <li><i class="fa fa-angle-right"></i>Nullam quis risus eget urna mollis ornare.</li>
+                <li><i class="fa fa-angle-right"></i>Donec id elit non mi porta gravida at eget.</li>
+                <li><i class="fa fa-angle-right"></i>Fusce dapibus, tellus ac cursus commodo.</li>
+             </ul>
+          </div>
+       </div>
+       <div class="timeline-block timeline-block-left">
+         <div class="marker"></div>
+         <div class="timeline-content">
+            <h3>Scuba Try Out <i class="si-ecommerce_star-favorites"></i></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+            <ul class="icon-list list-green">
+               <li><i class="fa fa-angle-right"></i>Aenean eu leo quam. Pellentesque ornare.</li>
+               <li><i class="fa fa-angle-right"></i>Nullam quis risus eget urna mollis ornare.</li>
+               <li><i class="fa fa-angle-right"></i>Donec id elit non mi porta gravida at eget.</li>
+               <li><i class="fa fa-angle-right"></i>Fusce dapibus, tellus ac cursus commodo.</li>
+            </ul>
+         </div>
+       </div>
+    </div>
   </div>
   <!-- /.container -->
 </div>
 <!-- /.wrapper -->
-*/ ?>
-
-
-
 
 
 <div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-bg4.jpg">
@@ -180,129 +86,10 @@ $this->registerJs(
 
 
 
-
-<div class="stem-wrapper">
-	<div class="stem"></div>
-	<div class="stem-background"></div>
-</div>
-
-<?php /*
-<header class="section header">
-	<div class="section-inner">
-
-		<div class="master-head">
-			<h1 class="page-title">Redesign Method</h1>
-			<p class="page-description">Our Redesign was Data-driven. Our design concept are a result of data generated from the following sources:</p>
-		</div>
-
-	</div> <!-- section-inner -->
-</header> <!-- header -->
-*/ ?>
-
-<div class="section main-content">
-	<div class="section-inner">
-
-		<div class="stem-padding"></div>
-
-		<div class="post-wrapper">
-
-			<article class="post bitbucket-icon">
-				<div class="stem-overlay">
-					<div class="icon"></div>
-					<div class="stem-mask"></div>
-				</div>
-
-				<div class="post-content">
-					<h2 class="post-title">Surveys</h2>
-					<div class="entry-content">
-						<p>We had 10 current Phd students respond to our survey with a little nudge from the Phd co-ordinator.</p>
-					</div>
-				</div>
-			</article>
-
-			<article class="post m-icon" data-stem-color="green">
-				<div class="stem-overlay">
-					<div class="icon"></div>
-					<div class="stem-mask"></div>
-				</div>
-
-				<div class="post-content">
-					<h2 class="post-title">Interviews</h2>
-					<div class="entry-content">
-						<p>We interviewed two current Phd students at different levels in the program. One student had been in the program for the last 8 years and was about to complete his/her dissertation. The other student had been in the program for a year and was planning on trasfering out of the program. We also interviewed the program director and co-ordinator.</p>
-					</div>
-				</div>
-			</article>
-
-			<article class="post music-icon" data-stem-color="yellow">
-				<div class="stem-overlay">
-					<div class="icon"></div>
-					<div class="stem-mask"></div>
-				</div>
-
-				<div class="post-content">
-					<h2 class="post-title">Card Sorting exercise</h2>
-					<div class="entry-content">
-						<p>We conducted card sorting amongst ourselves and then again with three Phd students.</p>
-					</div>
-				</div>
-			</article>
-
-			<article class="post twitter-icon" data-stem-color="white">
-				<div class="stem-overlay">
-					<div class="icon"></div>
-					<div class="stem-mask"></div>
-				</div>
-
-				<div class="post-content">
-					<h2 class="post-title">Google Analytics</h2>
-					<div class="entry-content">
-						<p>We looked at data generated from google analytics dashboard. Data such as geolocation of people who visited, pages visited, time spent and how users found the existing phd website was analysed. </p>
-					</div>
-				</div>
-			</article>
-
-			<article class="post bitbucket-icon">
-				<div class="stem-overlay">
-					<div class="icon"></div>
-					<div class="stem-mask"></div>
-				</div>
-
-				<div class="post-content">
-					<h2 class="post-title">Cognitive Walkthrough</h2>
-					<div class="entry-content">
-						<p>We conducted a cognitive walkthrough with 2 students in the master's program to see if the current website was navigatable. We chose partcipants who had never used the website before.We wanted to study their information seeking behaviour.</p>
-					</div>
-				</div>
-			</article>
-
-			<article class="post music-icon" data-stem-color="yellow">
-				<div class="stem-overlay">
-					<div class="icon"></div>
-					<div class="stem-mask"></div>
-				</div>
-
-				<div class="post-content">
-					<h2 class="post-title">Content Available</h2>
-					<div class="entry-content">
-						<p>We looked at the content on the current website and also everything that was available in the Phd handbook. We also looked and other on-campus sites like the graduate school website, the international students website and the course registeration website to find all the content that a current or prospective student could access.</p>
-					</div>
-				</div>
-			</article>
-
-		</div> <!-- post-wrapper -->
-
-		<!-- <div class="single-stem-icon scroll-to-top trigger-scroll-to-top"></div> -->
-
-	</div> <!-- section-inner -->
-</div> <!-- main-content -->
-
-
-</div>
-<!-- /.container -->
+  </div>
+  <!-- /.container -->
 </div>
 <!-- /.wrapper -->
-
 
 
 <?php /*
