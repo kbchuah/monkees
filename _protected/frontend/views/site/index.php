@@ -11,11 +11,9 @@ $this->title = Yii::t('app', Yii::$app->name);
     <p class="lead larger">Join us and discover a whole new world</p>
     <div class="space10"></div>
     <ul class="social social-mute social-m">
-      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-      <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-      <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="https://www.instagram.com/marinemonkees/"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="https://www.facebook.com/MMonkees/"><i class="fa fa-facebook-f"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UCP0qmYNDZ4yrVG8IPAH5-VA"><i class="fa fa-youtube"></i></a></li>
     </ul>
   </div>
   <!-- /.container -->
@@ -25,7 +23,7 @@ $this->title = Yii::t('app', Yii::$app->name);
 <div class="wrapper light-wrapper">
   <div class="container inner">
     <!-- <h2 class="section-title mb-40 text-center">Why scuba dive?</h2> -->
-    <h2 class="section-title mb-40 text-center">Why scuba dive? <span class="typer" data-delay="100" data-delim=":" data-words="Why not?"></span><span class="cursor" data-owner="typer"></span> </h2>
+    <h2 class="section-title mb-40 text-center">Why scuba dive? <span class="typer" data-delay="100" data-delim=":" data-words="Why not?:Escape.:Explore.:Experience."></span><span class="cursor" data-owner="typer"></span> </h2>
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <p>
