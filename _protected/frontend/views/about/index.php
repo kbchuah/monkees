@@ -1,7 +1,7 @@
 <?php
 
 /* @var $this yii\web\View */
-$this->title = Yii::t('app', Yii::$app->name);
+$this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
 
 ?>
 

@@ -33,6 +33,8 @@ phpunit.phar
 # ignore runtime
 _protected/frontend/runtime
 _protected/frontend/runtime/debug
+_protected/frontend/runtime/log
 _protected/backend/runtime
 _protected/backend/runtime/debug
+_protected/backend/runtime/log
 /runtime
