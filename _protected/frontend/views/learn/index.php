@@ -30,12 +30,12 @@ $this->title = Yii::t('app', Yii::$app->name) . ' | ' . Yii::t('app', 'Learn Wit
           <div class="tab-pane fade pb-0 show active" id="tab1-1">
             <div class="row no-gutter block-wrapper arrowed">
               <div class="col-md-6 block">
-                <figure><img src="style/images/art/sg9.jpg" alt="" /></figure>
+                <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-bubble-maker.jpg" alt="" /></figure>
               </div>
               <!--/column -->
               <div class="col-md-6 block text-center">
                 <div class="box bg-white h-100 d-flex flex-column justify-content-center">
-                  <h3 class="text-uppercase">Winter Wonderland</h3>
+                  <h3 class="text-uppercase">Bubble Maker</h3>
                   <p class="mb-30">Vestibulum ligula porta felis euismod semper. Duis mollis commodo luctus, ac commodo porttitor nibh.</p>
                   <div class="d-inline-block"><a href="#0" data-type="slide-portfolio-item-1" class="btn btn-s btn-full-rounded btn-icon-right slide-portfolio-item">See Gallery<i class="fa fa-angle-double-right"></i></a></div>
                 </div>
