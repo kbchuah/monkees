@@ -21,7 +21,7 @@ use Yii;
  * It is responsible for displaying static pages, logging users in and out,
  * sign up and account activation, password reset.
  */
-class DivingController extends Controller
+class DiveController extends Controller
 {
     // public $layout = 'main_solidnav';
 
