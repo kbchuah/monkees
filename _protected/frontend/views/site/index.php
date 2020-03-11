@@ -1,4 +1,5 @@
 <?php
+use yii\helpers\Url;
 
 /* @var $this yii\web\View */
 $this->title = Yii::t('app', Yii::$app->name);
@@ -28,10 +29,13 @@ $this->title = Yii::t('app', Yii::$app->name);
       <div class="col-md-8 offset-md-2">
         <p>
           <span class="dropcap color-sky">W</span>hy not?
-          That's the usual answer we would give when someone asks us why we do what we do. There are many benefits to scuba diving. One, it makes you happy, by improving your mental and emotional well-being & helps relieve stress. Secondly, who doesn't like the beach? Imagine being surrounded by crystal clear sea, the sun kissing your skin & sand between your toes. Being a diver, you will travel and explore places you've never heard of, and return home full of wonderful stories & adventures to share. Marvel at the beauty of nature, enjoy the peace & quiet the underwater world brings. Make new friends, expand your network & share your stories and experiences.
+          That's the usual answer we would give when someone asks us why we do what we do. There are many benefits to scuba diving. One, it makes you happy, by improving your mental and emotional well-being & helps relieve stress. Secondly, who doesn't like the beach? Imagine being surrounded by crystal clear sea, the sun kissing your skin & sand between your toes. Being a diver, you will travel and explore places you've never heard of, and return home full of wonderful stories & adventures to share. Marvel at the beauty of nature, enjoy the peace & quiet the underwater world brings.
+        </p>
+        <p>
+          And the best part of it all, you will definitely make new friends, expand your network & share your stories and experiences. And that's how we (Marine Monkees) started. Have fun exploring our site, or if you need more information feel free to contact us anytime!
         </p>
         <p class="text-center">
-          <a href="#" class="btn btn-full-rounded btn-sky">Find Out More</a>
+          <a href="<?=Url::toRoute(['about/'])?>" class="btn btn-full-rounded btn-sky">About Us</a>
         </p>
       </div>
       <!-- /column -->
@@ -60,10 +64,10 @@ $this->title = Yii::t('app', Yii::$app->name);
       <div class="col-md-4 pl-md-5">
         <h2 class="section-title">Brief Introduction About Tioman</h2>
         <p>
-          Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+          <span class="dropcap color-sky">L</span>ocated about 2.5 hours off the east coast of Peninsula Malaysia, it was definitely love at first sight. On the surface, the densely forested island is very well kept and sparsely inhabited. Beneath, it is surrounded by healthy coral reefs making it one of the best diving spots in Malaysia. We fell in love with this place and decided to make it our home.
         </p>
         <div class="space10"></div>
-        <a href="#" class="btn btn-full-rounded btn-sky">More about Tioman</a> </div>
+        <a href="<?=Url::toRoute(['tioman/'])?>" class="btn btn-full-rounded btn-sky">More about Tioman</a> </div>
       <!--/column -->
     </div>
     <!--/.row -->
@@ -321,6 +325,7 @@ $this->title = Yii::t('app', Yii::$app->name);
 </div>
 <!-- /.wrapper -->
 
+<?php /*
 <div class="wrapper gray-wrapper">
   <div class="container inner pb-40">
     <h2 class="section-title mb-0 text-center">Fullscreen Instagram Carousel</h2>
@@ -338,6 +343,8 @@ $this->title = Yii::t('app', Yii::$app->name);
   <!-- /.instagram-wrapper -->
 </div>
 <!-- /.wrapper -->
+*/ ?>
+
 
 <?php /*
 
