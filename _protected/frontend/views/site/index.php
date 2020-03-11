@@ -334,7 +334,7 @@ $this->title = Yii::t('app', Yii::$app->name);
       <!-- /.swiper-container -->
     </div>
     <!-- /.swiper-container-wrapper -->
-    <a href="https://www.instagram.com/urbanshots/" target="_blank" class="btn btn-full">Follow us @ Instagram</a> </div>
+    <a href="https://www.instagram.com/marinemonkees/" target="_blank" class="btn btn-full">Follow us @ Instagram</a> </div>
   <!-- /.instagram-wrapper -->
 </div>
 <!-- /.wrapper -->
