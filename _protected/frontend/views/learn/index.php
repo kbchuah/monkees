@@ -77,7 +77,7 @@ $this->title = Yii::t('app', Yii::$app->name) . ' | ' . Yii::t('app', 'Learn Wit
        </div>
     </div>
 
-    <h2 class="section-title mb-40 text-center">Already certified? <span class="typer" data-delay="100" data-delim=":" data-words="Time to refresh your skills!:Sharpen & refine your skills!"></span><span class="cursor" data-owner="typer"></span> </h2>
+    <h2 class="section-title mb-40 text-center">Already certified? <span class="typer" data-delay="100" data-delim=":" data-words="Time to refresh your skills!:Sharpen and refine your skills!"></span><span class="cursor" data-owner="typer"></span> </h2>
     <div class="container-timeline">
        <div class="timeline-block timeline-block-right">
           <div class="marker"></div>
