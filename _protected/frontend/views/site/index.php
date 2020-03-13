@@ -32,7 +32,7 @@ $this->title = Yii::t('app', Yii::$app->name);
           That's the usual answer we would give when someone asks us why we do what we do. There are many benefits to scuba diving. One, it makes you happy, by improving your mental and emotional well-being & helps relieve stress. Secondly, who doesn't like the beach? Imagine being surrounded by crystal clear sea, the sun kissing your skin & sand between your toes. Being a diver, you will travel and explore places you've never heard of, and return home full of wonderful stories & adventures to share. Marvel at the beauty of nature, enjoy the peace & quiet the underwater world brings.
         </p>
         <p>
-          And the best part of it all, you will definitely make new friends, expand your network & share your stories and experiences. And that's how we (Marine Monkees) started. Have fun exploring our site, or if you need more information feel free to contact us anytime!
+          And the best part of it all, you will definitely make new friends, expand your network & share your stories and experiences. And that's how we (Marine Monkees) got started. Have fun exploring our site, or if you need more information feel free to contact us anytime!
         </p>
         <p class="text-center">
           <a href="<?=Url::toRoute(['about/'])?>" class="btn btn-full-rounded btn-sky">About Us</a>
@@ -82,17 +82,17 @@ $this->title = Yii::t('app', Yii::$app->name);
     <div class="row gutter-50 text-center">
       <div class="col-md-4"> <span class="icon icon-bg bg-dark fs-34 mb-20"><i class="fa fa-thumbs-up"></i></span>
         <h5>Excellent Service</h5>
-        <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio dapibus ac facilisis in egestas.</p>
+        <p>We are a certified 5-star PADI dive center, with excellent customer service. We will do our best to ensure that your time with us is truly enjoyable.</p>
       </div>
       <!--/column -->
       <div class="col-md-4"> <span class="icon icon-bg bg-default fs-34 mb-20"><i class="fa fa-heartbeat"></i></span>
         <h5>Safety in Mind</h5>
-        <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio dapibus ac facilisis in egestas.</p>
+        <p>Safety is our number one priority. We make sure everyone is having fun while keeping your safety in mind.</p>
       </div>
       <!--/column -->
       <div class="col-md-4"> <span class="icon icon-bg bg-gradient fs-34 mb-20"><i class="fa fa-mortar-board"></i></span>
         <h5>Outstanding Education</h5>
-        <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo odio dapibus ac facilisis in egestas.</p>
+        <p>Teaching is what we do best. Our instructors are more than happy to help provide everything you will need in your journey to become a certified diver.</p>
       </div>
       <!--/column -->
     </div>
@@ -135,37 +135,43 @@ $this->title = Yii::t('app', Yii::$app->name);
 
 <div class="wrapper light-wrapper">
   <div class="container inner">
-    <h2 class="section-title mb-40 text-center">Our Services</h2>
+    <h2 class="section-title mb-40 text-center">Join Us</h2>
     <div class="tiles">
       <div class="items row">
         <div class="item col-md-4">
-          <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-courses.jpg" alt=""></span>
-            <figcaption class="d-flex">
-              <div class="align-self-end mx-auto">
-                <h4 class="mb-0">Courses</h4>
-              </div>
-            </figcaption>
-          </figure>
+          <a href="<?=Url::toRoute(['learn/'])?>">
+            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-courses.jpg" alt=""></span>
+              <figcaption class="d-flex">
+                <div class="align-self-end mx-auto">
+                  <h4 class="mb-0">Learn with us</h4>
+                </div>
+              </figcaption>
+            </figure>
+          </a>
         </div>
         <!--/.item -->
         <div class="item col-md-4">
-          <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive-trips.jpg" alt=""></span>
-            <figcaption class="d-flex">
-              <div class="align-self-end mx-auto">
-                <h4 class="mb-0">Dive Trips</h4>
-              </div>
-            </figcaption>
-          </figure>
+          <a href="<?=Url::toRoute(['dive/'])?>">
+            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive-trips.jpg" alt=""></span>
+              <figcaption class="d-flex">
+                <div class="align-self-end mx-auto">
+                  <h4 class="mb-0">Dive with us</h4>
+                </div>
+              </figcaption>
+            </figure>
+          </a>
         </div>
         <!--/.item -->
         <div class="item col-md-4">
-          <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-career.jpg" alt=""></span>
-            <figcaption class="d-flex">
-              <div class="align-self-end mx-auto">
-                <h4 class="mb-0">Career</h4>
-              </div>
-            </figcaption>
-          </figure>
+          <a href="<?=Url::toRoute(['about/'])?>">
+            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-career.jpg" alt=""></span>
+              <figcaption class="d-flex">
+                <div class="align-self-end mx-auto">
+                  <h4 class="mb-0">Work with us</h4>
+                </div>
+              </figcaption>
+            </figure>
+          </a>
         </div>
         <!--/.item -->
       </div>
@@ -179,7 +185,7 @@ $this->title = Yii::t('app', Yii::$app->name);
 
 <div class="wrapper gray-wrapper">
   <div class="container inner">
-    <h2 class="section-title mb-40 text-center">Single Testimonial Carousel - Alternative</h2>
+    <h2 class="section-title mb-40 text-center">Testimonials</h2>
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <div class="swiper-container-wrapper basic-slider">
@@ -188,13 +194,13 @@ $this->title = Yii::t('app', Yii::$app->name);
               <div class="swiper-slide">
                 <div class="row gutter-50 d-flex">
                   <div class="col-md-6">
-                    <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/te1.jpg" alt="" /></figure>
+                    <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-kb.png" alt="" /></figure>
                   </div>
                   <!--/column -->
                   <div class="col-md-6 align-self-center">
                     <blockquote class="icon icon-top">
-                      <p>Consectetur adipiscing elit. Duis mollis, est non commodo luctus gestas eget quam integer. Curabitur blandit tempus rutrum faucibus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                      <footer class="blockquote-footer">Mildred & Austin</footer>
+                      <p>Diving with Marine Monkees, I always end up surfacing with an empty tank! Why? Try laughing non-stop underwater 🤣.</p>
+                      <footer class="blockquote-footer">Koh Beng Chuah</footer>
                     </blockquote>
                   </div>
                   <!--/column -->
@@ -205,13 +211,13 @@ $this->title = Yii::t('app', Yii::$app->name);
               <div class="swiper-slide">
                 <div class="row gutter-50 d-flex">
                   <div class="col-md-6">
-                    <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/te2.jpg" alt="" /></figure>
+                    <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-xtina.png" alt="" /></figure>
                   </div>
                   <!--/column -->
                   <div class="col-md-6 align-self-center">
                     <blockquote class="icon icon-top">
-                      <p>Consectetur adipiscing elit. Duis mollis, est non commodo luctus gestas eget quam integer. Curabitur blandit tempus rutrum faucibus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                      <footer class="blockquote-footer">Diana & Wayne</footer>
+                      <p>Your professional friendly dive shop in Salang Beach, Tioman. Thanks guys for everything you do to make our dives organized, safe and filled with fun & laughter. Keep it up! 👍🏻.</p>
+                      <footer class="blockquote-footer">Christina Kang</footer>
                     </blockquote>
                   </div>
                   <!--/column -->
@@ -222,13 +228,13 @@ $this->title = Yii::t('app', Yii::$app->name);
               <div class="swiper-slide">
                 <div class="row gutter-50 d-flex">
                   <div class="col-md-6">
-                    <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/te3.jpg" alt="" /></figure>
+                    <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-peggy.png" alt="" /></figure>
                   </div>
                   <!--/column -->
                   <div class="col-md-6 align-self-center">
                     <blockquote class="icon icon-top">
-                      <p>Consectetur adipiscing elit. Duis mollis, est non commodo luctus gestas eget quam integer. Curabitur blandit tempus rutrum faucibus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-                      <footer class="blockquote-footer">Evelyn & John</footer>
+                      <p>Almost wanted to rate it a 4star due to the lack of good looking instructors. #jokingnotjoking hahahahaha! Oh well... I had some great dives here, so there you go 5star.</p>
+                      <footer class="blockquote-footer">Peggy Gan</footer>
                     </blockquote>
                   </div>
                   <!--/column -->
@@ -252,12 +258,13 @@ $this->title = Yii::t('app', Yii::$app->name);
 </div>
 <!-- /.wrapper -->
 
-<div class="wrapper light-wrapper">
-  <div class="container inner">
+<div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-bg2.jpg">
+<!-- <div class="wrapper light-wrapper"> -->
+  <div class="container inner pt-120 pb-120">
     <div class="row">
       <div class="col-md-8">
         <h2 class="section-title">Get in Touch</h2>
-        <p>Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat.</p>
+        <p>If you have any general questions or queries and cannot find the answer(s) on our website, please use the form below to directly contact us and we’ll get back to you as soon as possible unless if we’re out diving.</p>
         <div class="space10"></div>
         <div class="form-container">
           <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="" data-vf-id="daf49148-9058-c47f-e922-9562d77936fd">
@@ -308,11 +315,11 @@ $this->title = Yii::t('app', Yii::$app->name);
       <aside class="col-md-4 sidebar">
         <div class="sidebox widget">
           <h5 class="widget-title">Address</h5>
-          <p>Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur.</p>
+          <p>Somewhere in Kg Salang, Tioman</p>
           <ul class="icon-list">
-            <li><i class="fa fa-map"></i>Moonshine St. 14/05 Light City</li>
-            <li><i class="fa fa-envelope"></i><a href="mailto:first.last@email.com" class="nocolor">first.last@email.com</a></li>
-            <li><i class="fa fa-phone-square"></i>+00 (123) 456 78 90 </li>
+            <!-- <li><i class="fa fa-map"></i></li> -->
+            <li><i class="fa fa-envelope"></i><a href="mailto:ask@marinemonkees.com.my" class="nocolor">ask@marinemonkees.com.my</a></li>
+            <li><i class="fa fa-phone-square"></i>+609 419 5100</li>
           </ul>
         </div>
         <!-- /.widget -->
@@ -324,6 +331,197 @@ $this->title = Yii::t('app', Yii::$app->name);
   <!-- /.container -->
 </div>
 <!-- /.wrapper -->
+
+
+<?php /*
+<div class="wrapper light-wrapper">
+  <div class="collage-wrapper">
+    <div id="collage-large" class="collage effect-parent light-gallery">
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j1-full.jpg" data-sub-html="#caption1"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j1.jpg" style="width:675px; height:450px;" alt="" /></a>
+          <div id="caption1" class="d-none">
+            <p>Maecenas faucibus mollis interdum.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j2-full.jpg" data-sub-html="#caption2"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j2.jpg" style="width:675px; height:450px;" alt="" /></a>
+          <div id="caption2" class="d-none">
+            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j3-full.jpg"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j3.jpg" style="width:339px; height:450px;" alt="" /></a> </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j4-full.jpg" data-sub-html="#caption4"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j4.jpg" style="width:650px; height:450px;" alt="" /></a>
+          <div id="caption4" class="d-none">
+            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j5-full.jpg" data-sub-html="#caption5"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j5.jpg" style="width:300px; height:450px;" alt="" /></a>
+          <div id="caption5" class="d-none">
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j6-full.jpg"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j6.jpg" style="width:604px; height:450px;" alt="" /></a> </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j7-full.jpg" data-sub-html="#caption7"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j7.jpg" style="width:675px; height:450px;" alt="" /></a>
+          <div id="caption7" class="d-none">
+            <p>Curabitur blandit tempus porttitor.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j8-full.jpg" data-sub-html="#caption8"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j8.jpg" style="width:337px; height:450px;" alt="" /></a>
+          <div id="caption8" class="d-none">
+            <p>Maecenas faucibus mollis interdum.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j9-full.jpg"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j9.jpg" style="width:675px; height:450px;" alt="" /></a> </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j10-full.jpg" data-sub-html="#caption10"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j10.jpg" style="width:360px; height:450px;" alt="" /></a>
+          <div id="caption10" class="d-none">
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j11-full.jpg" data-sub-html="#caption11"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j11.jpg" style="width:675px; height:450px;" alt="" /></a>
+          <div id="caption11" class="d-none">
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j12-full.jpg"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j12.jpg" style="width:374px; height:450px;" alt="" /></a> </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j13-full.jpg" data-sub-html="#caption13"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j13.jpg" style="width:300px; height:450px;" alt="" /></a>
+          <div id="caption13" class="d-none">
+            <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j14-full.jpg" data-sub-html="#caption14"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j14.jpg" style="width:675px; height:450px;" alt="" /></a>
+          <div id="caption14" class="d-none">
+            <p>Maecenas faucibus mollis interdum.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j15-full.jpg" data-sub-html="#caption15"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j15.jpg" style="width:300px; height:450px;" alt="" /></a>
+          <div id="caption15" class="d-none">
+            <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j16-full.jpg"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j16.jpg" style="width:675px; height:450px;" alt="" /></a> </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j17-full.jpg" data-sub-html="#caption17"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j17.jpg" style="width:422px; height:450px;" alt="" /></a>
+          <div id="caption17" class="d-none">
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j18-full.jpg" data-sub-html="#caption18"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j18.jpg" style="width:404px; height:450px;" alt="" /></a>
+          <div id="caption18" class="d-none">
+            <p>Sed posuere consectetur est at lobortis.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j19-full.jpg" data-sub-html="#caption19"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j19.jpg" style="width:360px; height:450px;" alt="" /></a>
+          <div id="caption19" class="d-none">
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+      <div class="collage-image-wrapper">
+        <div class="overlay overlay2"><a href="style/images/art/j20-full.jpg" data-sub-html="#caption20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/j20.jpg" style="width:317px; height:450px;" alt="" /></a>
+          <div id="caption20" class="d-none">
+            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /.collage-image-wrapper -->
+    </div>
+    <!-- /.collage -->
+  </div>
+  <!-- /.collage-wrapper -->
+</div>
+<!-- /.wrapper -->
+*/?>
+
+<?php /*
+<div class="wrapper dark-wrapper inverse-text">
+  <div class="container-fluid inner pt-15 pb-15">
+    <div class="swiper-container-wrapper swiper-auto-full ver1" data-aos="fade">
+      <div class="swiper-container text-center">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/br1.jpg" alt="" /> </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/br2.jpg" alt="" /> </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/br3.jpg" alt="" /> </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/br4.jpg" alt="" /> </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/br5.jpg" alt="" /> </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/br6.jpg" alt="" /> </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/br7.jpg" alt="" /> </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/br8.jpg" alt="" /> </div>
+          <!-- /.swiper-slide -->
+          <div class="swiper-slide"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/br9.jpg" alt="" /> </div>
+          <!-- /.swiper-slide -->
+        </div>
+        <!-- .swiper-wrapper -->
+      </div>
+      <!-- .swiper-container -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <!-- .swiper-container-wrapper -->
+  </div>
+  <!-- /.container-fluid -->
+</div>
+<!-- /.wrapper -->
+*/ ?>
 
 <?php /*
 <div class="wrapper gray-wrapper">
