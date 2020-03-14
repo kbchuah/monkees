@@ -134,7 +134,7 @@ $column_height = '400px';
 </div>
 <!-- /.wrapper -->
 
-<div class="wrapper light-wrapper">
+<div class="wrapper dark-wrapper">
   <div id="cube-grid-full" class="cbp">
     <div class="cbp-item">
       <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal1"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg1.jpg" alt="" /></a>

@@ -51,7 +51,7 @@ $this->title = Yii::t('app', Yii::$app->name);
     <div class="row">
       <div class="col-md-8">
         <div data-aos="fade" class="light-gallery">
-          <figure class="overlay overlay1 mb-10"> <a href="https://youtu.be/f8wO3d5hHq0"><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tioman-aerial-shot.jpg" alt=""></a>
+          <figure class="overlay overlay1 mb-10"> <a href="https://youtu.be/f8wO3d5hHq0"><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-tioman.jpg" alt=""></a>
             <figcaption class="d-flex">
               <div class="align-self-center mx-auto">
                 <h5 class="mb-0">Check our humble home out!</h5>
@@ -318,7 +318,7 @@ $this->title = Yii::t('app', Yii::$app->name);
           <p>Somewhere in Kg Salang, Tioman</p>
           <ul class="icon-list">
             <!-- <li><i class="fa fa-map"></i></li> -->
-            <li><i class="fa fa-envelope"></i><a href="mailto:ask@marinemonkees.com.my" class="nocolor">ask@marinemonkees.com.my</a></li>
+            <li><i class="fa fa-envelope"></i><a href="mailto:info@marinemonkees.com.my" class="nocolor">info@marinemonkees.com.my</a></li>
             <li><i class="fa fa-phone-square"></i>+609 419 5100</li>
           </ul>
         </div>
