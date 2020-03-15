@@ -180,7 +180,7 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
       <div class="space30 d-none d-md-block d-lg-none"></div>
       <div class="col-md-6 col-lg-2">
         <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
-        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-shaz.jpg" alt=""></figure> -->
+        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-loris.jpg" alt=""></figure>
         <h5 class="mb-5">Loris Salvato</h5>
         <div class="meta">Divemaster</div>
       </div>
@@ -386,7 +386,7 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
 
 <div class="wrapper light-wrapper">
   <div class="container inner">
-    <h2 class="section-title mb-40 text-center">Be A Monkee</h2>
+    <h2 class="section-title mb-40 text-center">Join Us, Be A Monkee</h2>
     <div class="tiles">
       <div class="items row">
         <div class="item col-md-4">

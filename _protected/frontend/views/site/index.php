@@ -135,7 +135,7 @@ $this->title = Yii::t('app', Yii::$app->name);
 
 <div class="wrapper light-wrapper">
   <div class="container inner">
-    <h2 class="section-title mb-40 text-center">Be A Monkee</h2>
+    <h2 class="section-title mb-40 text-center">Join Us, Be A Monkee</h2>
     <div class="tiles">
       <div class="items row">
         <div class="item col-md-4">

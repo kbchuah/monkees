@@ -214,7 +214,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal8"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal8"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock-cover.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Malang Rock</h3>
@@ -236,7 +236,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal9"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal10"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Chebeh</h3>
@@ -247,7 +247,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal9"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal11"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Labas</h3>
@@ -258,7 +258,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal9"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal12"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef-cover.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Tiger Reef</h3>
@@ -450,15 +450,12 @@ $column_height = '400px';
         <h4 class="title-color color-yellow text-center">Highlights: nudibranch, swim-throughs</h4>
         <div class="space10"></div>
         <ul class="basic-gallery">
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8-1.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8-2.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8-3.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8-4.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8-5.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8-6.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8-7.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8-8.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg8-9.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock1.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock2.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock3.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock4.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock5.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock6.jpg" alt=""></li>
         </ul>
       </div>
     </div>
@@ -487,7 +484,7 @@ $column_height = '400px';
     </div>
   </div>
   <!--/.modal -->
-  <div class="modal inverse-text modal-transparent faded" id="myModal9" tabindex="-1" role="dialog"> <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"></a>
+  <div class="modal inverse-text modal-transparent faded" id="myModal10" tabindex="-1" role="dialog"> <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"></a>
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content text-center">
         <h2 class="text-uppercase">Chebeh</h2>
@@ -510,7 +507,7 @@ $column_height = '400px';
     </div>
   </div>
   <!--/.modal -->
-  <div class="modal inverse-text modal-transparent faded" id="myModal9" tabindex="-1" role="dialog"> <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"></a>
+  <div class="modal inverse-text modal-transparent faded" id="myModal11" tabindex="-1" role="dialog"> <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"></a>
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content text-center">
         <h2 class="text-uppercase">Labas</h2>
@@ -534,7 +531,7 @@ $column_height = '400px';
     </div>
   </div>
   <!--/.modal -->
-  <div class="modal inverse-text modal-transparent faded" id="myModal9" tabindex="-1" role="dialog"> <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"></a>
+  <div class="modal inverse-text modal-transparent faded" id="myModal12" tabindex="-1" role="dialog"> <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"></a>
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content text-center">
         <h2 class="text-uppercase">Tiger Reef</h2>
@@ -545,7 +542,8 @@ $column_height = '400px';
         <h4 class="title-color color-yellow text-center">Highlights: Prolific sponges, nudibranch, unspoilt natural beauty</h4>
         <div class="space10"></div>
         <ul class="basic-gallery">
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-1.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef1.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef2.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-2.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-3.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-4.jpg" alt=""></li>
