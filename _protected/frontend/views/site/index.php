@@ -135,12 +135,12 @@ $this->title = Yii::t('app', Yii::$app->name);
 
 <div class="wrapper light-wrapper">
   <div class="container inner">
-    <h2 class="section-title mb-40 text-center">Join Us</h2>
+    <h2 class="section-title mb-40 text-center">Be A Monkee</h2>
     <div class="tiles">
       <div class="items row">
         <div class="item col-md-4">
           <a href="<?=Url::toRoute(['learn/'])?>">
-            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-courses.jpg" alt=""></span>
+            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-learn3.jpg" alt=""></span>
               <figcaption class="d-flex">
                 <div class="align-self-end mx-auto">
                   <h4 class="mb-0">Learn with us</h4>
@@ -152,7 +152,7 @@ $this->title = Yii::t('app', Yii::$app->name);
         <!--/.item -->
         <div class="item col-md-4">
           <a href="<?=Url::toRoute(['dive/'])?>">
-            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive-trips.jpg" alt=""></span>
+            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive.jpg" alt=""></span>
               <figcaption class="d-flex">
                 <div class="align-self-end mx-auto">
                   <h4 class="mb-0">Dive with us</h4>
@@ -163,11 +163,11 @@ $this->title = Yii::t('app', Yii::$app->name);
         </div>
         <!--/.item -->
         <div class="item col-md-4">
-          <a href="<?=Url::toRoute(['about/'])?>">
-            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-career.jpg" alt=""></span>
+          <a href="<?=Url::toRoute(['tioman/'])?>">
+            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-home.jpg" alt=""></span>
               <figcaption class="d-flex">
                 <div class="align-self-end mx-auto">
-                  <h4 class="mb-0">Work with us</h4>
+                  <h4 class="mb-0">Visit us</h4>
                 </div>
               </figcaption>
             </figure>
@@ -185,7 +185,7 @@ $this->title = Yii::t('app', Yii::$app->name);
 
 <div class="wrapper gray-wrapper">
   <div class="container inner">
-    <h2 class="section-title mb-40 text-center">Testimonials</h2>
+    <!-- <h2 class="section-title mb-40 text-center">Testimonials</h2> -->
     <div class="row">
       <div class="col-lg-8 offset-lg-2">
         <div class="swiper-container-wrapper basic-slider">
