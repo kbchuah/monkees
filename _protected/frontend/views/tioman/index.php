@@ -150,7 +150,7 @@ $this->title = Yii::t('app', Yii::$app->name) . ' | ' . Yii::t('app', 'Tioman Is
 </div>
 <!-- /.wrapper -->
 
-<div class="wrapper light-wrapper">
+<div id="accommodation" class="wrapper light-wrapper">
   <div class="container inner">
     <h2 class="section-title mb-40 text-center">Accommodation</h2>
     <div class="row">

@@ -23,7 +23,7 @@ use Yii;
  */
 class FaqController extends Controller
 {
-    // public $layout = 'main_solidnav';
+    public $layout = 'main_solidnav';
 
     /**
      * Declares external actions for the controller.
