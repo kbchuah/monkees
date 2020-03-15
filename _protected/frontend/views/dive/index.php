@@ -159,7 +159,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal3"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal3"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty-cover.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Salang Jetty</h3>
@@ -330,15 +330,13 @@ $column_height = '400px';
         <h4 class="title-color color-yellow text-center">Highlights: Variety of marine lives</h4>
         <div class="space10"></div>
         <ul class="basic-gallery">
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3-1.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3-2.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3-3.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3-4.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3-5.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3-6.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3-7.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3-8.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg3-9.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty1.jpg" alt=""></li>
+          <li><i class="si-arrows_double-arrow-up"></i> School of fishes between the pillars of Salang jetty</li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty2.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty3.jpg" alt=""></li>
+          <li><i class="si-arrows_double-arrow-up"></i> Special delivery for Viking artifical reef at Salang Bay</li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty4.jpg" alt=""></li>
+          <li><i class="si-arrows_double-arrow-up"></i> Skeleton shrimps hanging out on some rocks</li>          
         </ul>
       </div>
     </div>
@@ -452,10 +450,12 @@ $column_height = '400px';
         <ul class="basic-gallery">
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock1.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock2.jpg" alt=""></li>
+          <li><i class="si-arrows_double-arrow-up"></i> Divers exploring one of the many swim-throughs in Batu Malang site</li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock3.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock4.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock5.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/malang-rock6.jpg" alt=""></li>
+          <li><i class="si-arrows_double-arrow-up"></i> Swimming around a myriad of corals around</li>
         </ul>
       </div>
     </div>
@@ -544,6 +544,7 @@ $column_height = '400px';
         <ul class="basic-gallery">
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef1.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef2.jpg" alt=""></li>
+          <li><i class="si-arrows_double-arrow-up"></i> Lucky enough to spot one of the rarest marine creature in Tioman</li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-2.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-3.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-4.jpg" alt=""></li>
