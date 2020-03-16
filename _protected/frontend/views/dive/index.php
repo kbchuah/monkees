@@ -112,27 +112,7 @@ $column_height = '400px';
 </div>
 <!-- /.wrapper -->
 
-<div class="wrapper light-wrapper">
-  <div class="container inner">
-    <!-- <h2 class="section-title mb-40 text-center">Why scuba dive?</h2> -->
-    <h2 class="section-title mb-40 text-center">Why scuba dive? <span class="typer" data-delay="100" data-delim=":" data-words="Why not?:Escape.:Explore.:Experience."></span><span class="cursor" data-owner="typer"></span> </h2>
-    <div class="row">
-      <div class="col-md-8 offset-md-2">
-        <p>
-          <span class="dropcap color-sky">W</span>hy not?
-          That's the usual answer we would give when someone asks us why we do what we do. There are many benefits to scuba diving. One, it makes you happy, by improving your mental and emotional well-being & helps relieve stress. Secondly, who doesn't like the beach? Imagine being surrounded by crystal clear sea, the sun kissing your skin & sand between your toes. Being a diver, you will travel and explore places you've never heard of, and return home full of wonderful stories & adventures to share. Marvel at the beauty of nature, enjoy the peace & quiet the underwater world brings. Make new friends, expand your network & share your stories and experiences.
-        </p>
-        <p class="text-center">
-          <a href="#" class="btn btn-full-rounded btn-sky">Find Out More</a>
-        </p>
-      </div>
-      <!-- /column -->
-    </div>
-    <!-- /.row -->
-  </div>
-  <!-- /.container -->
-</div>
-<!-- /.wrapper -->
+<?= $this->render('//layouts/_why_dive'); ?>
 
 <div class="wrapper dark-wrapper">
   <div id="cube-grid-full" class="cbp">
@@ -170,7 +150,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal4"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg4.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal4"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay-cover.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Salang Bay</h3>
@@ -181,7 +161,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal5"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal5"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/soyak-cover.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Soyak</h3>
@@ -192,7 +172,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal6"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg6.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal6"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/sipadan-wreck-cover.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">KM Sipadan & Sawadee Wreck</h3>
@@ -236,7 +216,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal10"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal10"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/chebeh-cover.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Chebeh</h3>
@@ -247,7 +227,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal11"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal11"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/labas-cover.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Labas</h3>
@@ -308,6 +288,7 @@ $column_height = '400px';
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/viking1.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/viking2.jpg" alt=""></li>
           <li><i class="si-arrows_double-arrow-up"></i> Meet our playful resident honeycomb moray eel</li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/viking3.jpg" alt=""></li>
         </ul>
       </div>
     </div>
@@ -331,6 +312,10 @@ $column_height = '400px';
           <li><i class="si-arrows_double-arrow-up"></i> Special delivery for Viking artifical reef</li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty4.jpg" alt=""></li>
           <li><i class="si-arrows_double-arrow-up"></i> Skeleton shrimps hanging out on some rocks</li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty5.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty6.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty7.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty8.jpg" alt=""></li>
         </ul>
       </div>
     </div>
@@ -346,14 +331,19 @@ $column_height = '400px';
         <h4 class="title-color color-yellow text-center">Highlights: reef fishes, electric rays, eagle ray</h4>
         <div class="space10"></div>
         <ul class="basic-gallery">
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg4-1.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg4-2.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg4-3.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg4-4.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg4-5.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg4-6.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg4-7.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg4-8.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay1.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay2.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay3.jpg" alt=""></li>
+          <!-- <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay4.jpg" alt=""></li> -->
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay5.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay6.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay7.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay8.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay9.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay10.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay11.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay12.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/salang-bay13.jpg" alt=""></li>
         </ul>
       </div>
     </div>
@@ -370,16 +360,10 @@ $column_height = '400px';
         <h4 class="title-color color-yellow text-center"> Highlights: H20 Artificial Reef, chevron barracuda, nudibranch, turtle</h4>
         <div class="space10"></div>
         <ul class="basic-gallery">
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-1.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-2.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-3.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-4.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-5.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-6.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-7.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-8.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-9.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg5-10.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/soyak1.jpg" alt=""></li>
+          <li><i class="si-arrows_double-arrow-up"></i> Look closely, and you might find something interesting behind every rock or leaf</li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/soyak2.jpg" alt=""></li>
+          <li><i class="si-arrows_double-arrow-up"></i> Maintenance work on H20 artificial reef</li>
         </ul>
       </div>
     </div>
@@ -396,14 +380,8 @@ $column_height = '400px';
         <h4 class="title-color color-yellow text-center">Highlights: Wreck, schools of fishes</h4>
         <div class="space10"></div>
         <ul class="basic-gallery">
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg6-1.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg6-2.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg6-3.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg6-4.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg6-5.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg6-6.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg6-7.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg6-8.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/sipadan-wreck1.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/sipadan-wreck2.jpg" alt=""></li>
         </ul>
       </div>
     </div>
@@ -488,14 +466,9 @@ $column_height = '400px';
         <h4 class="title-color color-yellow text-center">Highlights: swim-throughs, barracuda, whale shark (if you’re really lucky)</h4>
         <div class="space10"></div>
         <ul class="basic-gallery">
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-1.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-2.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-3.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-4.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-5.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-6.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-7.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-8.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/chebeh1.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/chebeh2.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/chebeh3.jpg" alt=""></li>
         </ul>
       </div>
     </div>
@@ -512,14 +485,13 @@ $column_height = '400px';
         <h4 class="title-color color-yellow text-center">Highlights: Swim-throughs, nudibranch, macro life</h4>
         <div class="space10"></div>
         <ul class="basic-gallery">
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-1.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-2.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-3.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-4.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-5.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-6.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-7.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-8.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/labas1.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/labas2.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/labas3.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/labas4.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/labas5.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/labas6.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/labas7.jpg" alt=""></li>
         </ul>
       </div>
     </div>
@@ -539,13 +511,9 @@ $column_height = '400px';
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef1.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef2.jpg" alt=""></li>
           <li><i class="si-arrows_double-arrow-up"></i> Lucky enough to spot one of the rarest marine creature in Tioman</li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-2.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-3.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-4.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-5.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-6.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-7.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg9-8.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef3.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef4.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/tiger-reef5.jpg" alt=""></li>
         </ul>
       </div>
     </div>
