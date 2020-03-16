@@ -148,7 +148,7 @@ $column_height = '400px';
     </div>
     <!--/.cbp-item -->
     <div class="cbp-item">
-      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal2"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2.jpg" alt="" /></a>
+      <figure class="overlay-info hovered"><a href="#" data-toggle="modal" data-target="#myModal2"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/viking-cover.jpg" alt="" /></a>
         <figcaption class="d-flex">
           <div class="align-self-center mx-auto">
             <h3 class="mb-0">Viking Artificial Reef</h3>
@@ -305,15 +305,9 @@ $column_height = '400px';
         <h4 class="title-color color-yellow text-center">Highlight: Artificial Reef, Flabellina, Moray and Honey Comb Eel</h4>
         <div class="space10"></div>
         <ul class="basic-gallery">
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2-1.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2-2.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2-3.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2-4.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2-5.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2-6.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2-7.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2-8.jpg" alt=""></li>
-          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/tg2-9.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/viking1.jpg" alt=""></li>
+          <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/viking2.jpg" alt=""></li>
+          <li><i class="si-arrows_double-arrow-up"></i> Meet our playful resident honeycomb moray eel</li>
         </ul>
       </div>
     </div>
@@ -334,9 +328,9 @@ $column_height = '400px';
           <li><i class="si-arrows_double-arrow-up"></i> School of fishes between the pillars of Salang jetty</li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty2.jpg" alt=""></li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty3.jpg" alt=""></li>
-          <li><i class="si-arrows_double-arrow-up"></i> Special delivery for Viking artifical reef at Salang Bay</li>
+          <li><i class="si-arrows_double-arrow-up"></i> Special delivery for Viking artifical reef</li>
           <li><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/dive-sites/jetty4.jpg" alt=""></li>
-          <li><i class="si-arrows_double-arrow-up"></i> Skeleton shrimps hanging out on some rocks</li>          
+          <li><i class="si-arrows_double-arrow-up"></i> Skeleton shrimps hanging out on some rocks</li>
         </ul>
       </div>
     </div>
