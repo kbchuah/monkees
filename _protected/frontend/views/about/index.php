@@ -127,27 +127,27 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-2">
-        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-chris.jpg" alt=""></figure> -->
+        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
+        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-chris3.jpg" alt=""></figure>
         <h5 class="mb-5">Chris Ang</h5>
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-2">
-        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-        <!-- <figure class="mb-20"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-Riz-Ismail.jpg" alt=""> </figure> -->
+        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
+        <figure class="mb-20"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-riz3.jpg" alt=""> </figure>
         <h5 class="mb-5">Riz Ismail</h5>
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-2">
-        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-jae.jpg" alt=""></figure> -->
+        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
+        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-jae2.jpg" alt=""></figure>
         <h5 class="mb-5">Jae Hee Bang</h5>
       </div>
       <!--/column -->
       <div class="space30 d-none d-md-block d-lg-none"></div>
       <div class="col-md-6 col-lg-2">
-        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-matt.jpg" alt=""></figure> -->
+        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
+        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-matt2.jpg" alt=""></figure>
         <h5 class="mb-5">Matthew White</h5>
       </div>
       <!--/column -->
@@ -157,8 +157,9 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
     <h2 class="section-title mb-40 text-center">Our Dive Crew</h2>
     <div class="row text-center">
       <div class="col-md-6 col-lg-2">
-        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-        <!-- <figure class="mb-20"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-Shonny.jpg" alt=""> </figure> -->
+        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
+        <figure class="mb-20"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-kb.jpg" alt=""> </figure>
+        <!-- <figure class="mb-20"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-kb2.jpg" alt=""> </figure> -->
         <h5 class="mb-5">Koh Beng</h5>
         <div class="meta">Divemaster</div>
         <!-- <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui consectetur.</p>
@@ -170,30 +171,30 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-2">
-        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-paul.jpg" alt=""></figure> -->
+        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
+        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dani2.jpg" alt=""></figure>
         <h5 class="mb-5">Dani Teo</h5>
         <div class="meta">Divemaster</div>
       </div>
       <!--/column -->
       <div class="space30 d-none d-md-block d-lg-none"></div>
       <div class="col-md-6 col-lg-2">
-        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-shaz.jpg" alt=""></figure> -->
+        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
+        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-loris.jpg" alt=""></figure>
         <h5 class="mb-5">Loris Salvato</h5>
         <div class="meta">Divemaster</div>
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-2">
-        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-tristan.jpg" alt=""></figure> -->
+        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
+        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-angah2.jpg" alt=""></figure>
         <h5 class="mb-5">Angah</h5>
         <div class="meta">Boat Captain</div>
       </div>
       <!--/column -->
       <div class="col-md-6 col-lg-2">
-        <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-        <!-- <figure class="mb-20"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-jeremy.jpg" alt=""> </figure> -->
+        <!-- <figure class="mb-20"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure> -->
+        <figure class="mb-20"> <img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-ezu3.jpg" alt=""> </figure>
         <h5 class="mb-5">Ezu Mat Jamal</h5>
         <div class="meta">Equipment Manager</div>
       </div>
@@ -326,112 +327,9 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
 </div>
 <!-- /.wrapper -->
 
-<div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-bg2.jpg">
-  <div class="container inner pt-120 pb-120">
-    <h2 class="section-title mb-40 text-center">Why Us?</h2>
-    <div class="row gutter-50 text-center">
-      <div class="col-md-4"> <span class="icon icon-bg bg-dark fs-34 mb-20"><i class="fa fa-thumbs-up"></i></span>
-        <h5>Excellent Service</h5>
-        <p>We are a certified 5-star PADI dive center, with excellent customer service. We will do our best to ensure that your time with us is truly enjoyable.</p>
-      </div>
-      <!--/column -->
-      <div class="col-md-4"> <span class="icon icon-bg bg-default fs-34 mb-20"><i class="fa fa-heartbeat"></i></span>
-        <h5>Safety in Mind</h5>
-        <p>Safety is our number one priority. We make sure everyone is having fun while keeping your safety in mind.</p>
-      </div>
-      <!--/column -->
-      <div class="col-md-4"> <span class="icon icon-bg bg-gradient fs-34 mb-20"><i class="fa fa-mortar-board"></i></span>
-        <h5>Outstanding Education</h5>
-        <p>Teaching is what we do best. Our instructors are more than happy to help provide everything you will need in your journey to become a certified diver.</p>
-      </div>
-      <!--/column -->
-    </div>
-    <!-- /.row -->
-    <div class="divider-icon"><i class="fa fa-sign-language-int"></i></div>
-    <div class="row counter">
-      <div class="col-md-3 text-center">
-        <div class="icon fs-54 icon-color color-dark mb-15"> <i class="si-cafe_open-shop"></i> </div>
-        <h3 class="value">12</h3>
-        <p class="text-uppercase color-dark">Years of Experience</p>
-      </div>
-      <!--/column -->
-      <div class="col-md-3 text-center">
-        <div class="icon fs-54 icon-color color-dark mb-15"> <i class="si-badges_post-card"></i> </div>
-        <h3 class="value">388</h3>
-        <p class="text-uppercase color-dark">Certifications</p>
-      </div>
-      <!--/column -->
-      <div class="col-md-3 text-center">
-        <div class="icon fs-54 icon-color color-dark mb-15"> <i class="si-badges_water-symbol"></i> </div>
-        <h3 class="value">784</h3>
-        <p class="text-uppercase color-dark">Total Dives</p>
-      </div>
-      <!--/column -->
-      <div class="col-md-3 text-center">
-        <div class="icon fs-54 icon-color color-dark mb-15"> <i class="si-sports_medal-2"></i> </div>
-        <h3 class="value">12</h3>
-        <p class="text-uppercase color-dark">Awards Rewarded</p>
-      </div>
-      <!--/column -->
-    </div>
-    <!--/.row -->
-    <!-- <p class="text-center">
-      <a href="#" class="btn btn-full-rounded btn-sky">Full Rounded Button</a>
-    </p> -->
-  </div>
-  <!-- /.container -->
-</div>
-<!-- /.wrapper -->
+<?= $this->render('//layouts/_why_us'); ?>
 
-<div class="wrapper light-wrapper">
-  <div class="container inner">
-    <h2 class="section-title mb-40 text-center">Join Us</h2>
-    <div class="tiles">
-      <div class="items row">
-        <div class="item col-md-4">
-          <a href="<?=Url::toRoute(['learn/'])?>">
-            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-courses.jpg" alt=""></span>
-              <figcaption class="d-flex">
-                <div class="align-self-end mx-auto">
-                  <h4 class="mb-0">Learn with us</h4>
-                </div>
-              </figcaption>
-            </figure>
-          </a>
-        </div>
-        <!--/.item -->
-        <div class="item col-md-4">
-          <a href="<?=Url::toRoute(['dive/'])?>">
-            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive-trips.jpg" alt=""></span>
-              <figcaption class="d-flex">
-                <div class="align-self-end mx-auto">
-                  <h4 class="mb-0">Dive with us</h4>
-                </div>
-              </figcaption>
-            </figure>
-          </a>
-        </div>
-        <!--/.item -->
-        <div class="item col-md-4">
-          <a href="<?=Url::toRoute(['about/'])?>">
-            <figure class="overlay overlay4"><span><span class="bg"></span><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-career.jpg" alt=""></span>
-              <figcaption class="d-flex">
-                <div class="align-self-end mx-auto">
-                  <h4 class="mb-0">Work with us</h4>
-                </div>
-              </figcaption>
-            </figure>
-          </a>
-        </div>
-        <!--/.item -->
-      </div>
-      <!--/.row -->
-    </div>
-    <!-- /.tiles -->
-  </div>
-  <!-- /.container -->
-</div>
-<!-- /.wrapper -->
+<?= $this->render('//layouts/_join_us'); ?>
 
 <div class="wrapper dark-wrapper inverse-text">
   <div class="inner pt-60 pb-60">
