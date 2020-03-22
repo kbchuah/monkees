@@ -6,9 +6,13 @@ $this->title = Yii::t('app', Yii::$app->name);
 
 ?>
 
-<div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-bg1.jpg">
-  <div class="container inner pt-250 pb-250 text-center">
-    <h1 class="heading">Looking for a new adventure?</h1>
+<?php $bg_img1 = Yii::getAlias('@web').'/themes/brailie/style/images/art/monkees-bg1.jpg' ?>
+<div class="fixed-bg-mobile" style='background-image: url("<?= $bg_img1 ?>")'></div>
+
+<div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?= $bg_img1 ?>">
+  <div class="container inner pt-250 pb-150 text-center">
+    <h1 class="heading hide-md">Looking for a new <span class="typer" data-delay="100" data-delim=":" data-words="adventure?:challenge?:life?"></span><span class="cursor" data-owner="typer"></span></h1>
+    <h1 class="heading show-md">Looking for a new <br><span class="typer" data-delay="100" data-delim=":" data-words="adventure?:challenge?:life?"></span><span class="cursor" data-owner="typer"></span></h1>
     <p class="lead larger">Join us and discover a whole new world</p>
     <div class="space10"></div>
     <ul class="social social-mute social-m">
@@ -16,6 +20,13 @@ $this->title = Yii::t('app', Yii::$app->name);
       <li><a href="https://www.facebook.com/MMonkees/"><i class="fa fa-facebook-f"></i></a></li>
       <li><a href="https://www.youtube.com/channel/UCP0qmYNDZ4yrVG8IPAH5-VA"><i class="fa fa-youtube"></i></a></li>
     </ul>
+    <div class="space50"></div>
+    <hr>
+    <?= $this->render('//layouts/_2020_promotion', [
+        'mini' => 'yes'
+    ]); ?>
+    <div class="space50"></div>
+    <p><a class="btn btn-full-rounded" href="<?=Url::toRoute(['promotion/'])?>">See All Packages</a></p>
   </div>
   <!-- /.container -->
 </div>
@@ -57,7 +68,13 @@ $this->title = Yii::t('app', Yii::$app->name);
 
 <?= $this->render('//layouts/_join_us'); ?>
 
-<div class="wrapper gray-wrapper">
+<div class="wrapper dark-wrapper inverse-text">
+  <div class="inner pt-60 pb-60">
+    <!-- <h2 class="section-title mb-30 text-center">Our Memories</h2> -->
+    <?= $this->render('//layouts/_gallery'); ?>
+  </div>
+  <!-- /.inner -->
+  <?php /*
   <div class="container inner">
     <!-- <h2 class="section-title mb-40 text-center">Testimonials</h2> -->
     <div class="row">
@@ -129,80 +146,17 @@ $this->title = Yii::t('app', Yii::$app->name);
     <!-- /.row -->
   </div>
   <!-- /.container -->
+  */ ?>
 </div>
 <!-- /.wrapper -->
 
-<div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-bg2.jpg">
-<!-- <div class="wrapper light-wrapper"> -->
+<?php $bg_img2 = Yii::getAlias('@web').'/themes/brailie/style/images/art/monkees-bg2.jpg' ?>
+<div class="wrapper image-wrapper bg-image inverse-text" data-image-src="<?= $bg_img2 ?>">
   <div class="container inner pt-120 pb-120">
-    <div class="row">
-      <div class="col-md-8">
-        <h2 class="section-title">Get in Touch</h2>
-        <p>If you have any general questions or queries and cannot find the answer(s) on our website, please use the form below to directly contact us and we’ll get back to you as soon as possible unless if we’re out diving.</p>
-        <div class="space10"></div>
-        <div class="form-container">
-          <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="" data-vf-id="daf49148-9058-c47f-e922-9562d77936fd">
-            <div class="row text-center">
-              <div class="col-md-6 pr-10">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="name" placeholder="Your name" required="required">
-                </div>
-                <!--/.form-group -->
-              </div>
-              <!--/column -->
-              <div class="col-md-6 pl-10">
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" placeholder="Your e-mail" required="required">
-                </div>
-                <!--/.form-group -->
-              </div>
-              <!--/column -->
-              <div class="col-md-6 pr-10">
-                <div class="form-group">
-                  <input type="tel" class="form-control" name="tel" placeholder="Phone">
-                </div>
-                <!--/.form-group -->
-              </div>
-              <!--/column -->
-              <div class="col-md-6 pl-10">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject">
-                </div>
-                <!--/.form-group -->
-              </div>
-              <!--/column -->
-              <div class="col-12">
-                <textarea name="message" class="form-control" rows="3" placeholder="Type your message here..." required=""></textarea>
-                <div class="space20"></div>
-                <button type="submit" class="btn btn-full-rounded state-initial" data-error="Fix errors" data-processing="Sending..." data-success="Thank you!" data-initial="" value="">Submit</button>
-                <footer class="notification-box"></footer>
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
-          </form>
-          <!--/.vanilla-form -->
-        </div>
-        <!--/.form-container -->
-      </div>
-      <!--/column -->
-      <aside class="col-md-4 sidebar">
-        <div class="sidebox widget">
-          <h5 class="widget-title">Address</h5>
-          <p>Somewhere in Kg Salang, Tioman</p>
-          <ul class="icon-list">
-            <!-- <li><i class="fa fa-map"></i></li> -->
-            <li><i class="fa fa-envelope"></i><a href="mailto:info@marinemonkees.com.my" class="nocolor">info@marinemonkees.com.my</a></li>
-            <li><i class="fa fa-phone-square"></i>+609 419 5100</li>
-          </ul>
-        </div>
-        <!-- /.widget -->
-      </aside>
-      <!-- /column .sidebar -->
-    </div>
-    <!--/.row -->
+    <?= $this->render('//layouts/_contact_us', [
+        'model' => $model
+    ]); ?>
   </div>
-  <!-- /.container -->
 </div>
 <!-- /.wrapper -->
 

@@ -30,6 +30,9 @@ Index48Asset::register($this);
 
     <div class="content-wrapper">
 
+        <?php $bg_img1 = Yii::getAlias('@web').'/themes/brailie/style/images/art/monkees-bg2.jpg' ?>
+        <div class="fixed-bg-mobile" style='background-image: url("<?= $bg_img1 ?>")'></div>
+
         <nav class="navbar solid nav-wrapper-light text-uppercase navbar-expand-lg">
           <div class="container">
             <div class="navbar-header">
@@ -37,24 +40,7 @@ Index48Asset::register($this);
               <div class="navbar-hamburger ml-auto d-lg-none d-xl-none"><button class="hamburger animate" data-toggle="collapse" data-target=".navbar-collapse"><span></span></button></div>
             </div>
             <!-- /.navbar-header -->
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="<?=Url::home()?>">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?=Url::toRoute(['about/'])?>">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?=Url::toRoute(['dive/'])?>">Dive</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?=Url::toRoute(['learn/'])?>">Learn</a></li>
-                <li class="nav-item"><a class="nav-link" href="<?=Url::toRoute(['tioman/'])?>">Tioman</a></li>
-              </ul>
-              <!-- /.navbar-nav -->
-              <div class="mr-20 d-none d-lg-block"></div>
-              <div class="navbar-divider d-lg-none d-xl-none"></div>
-              <ul class="social social-mute social-s">
-                <li><a href="https://www.instagram.com/marinemonkees/"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="https://www.facebook.com/MMonkees/"><i class="fa fa-facebook-f"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCP0qmYNDZ4yrVG8IPAH5-VA"><i class="fa fa-youtube"></i></a></li>
-              </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            <?= $this->render('//layouts/_header'); ?>
           </div>
           <!-- /.container -->
         </nav>
@@ -62,24 +48,23 @@ Index48Asset::register($this);
 
         <?= $content ?>
 
-        <footer class="dark-wrapper inverse-text">
-          <div class="sub-footer">
-            <div class="container inner text-center"> <img src="#" srcset="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/logo-light.png 1x, <?=Yii::getAlias('@web')?>/themes/brailie/style/images/logo-light@2x.png 2x" alt="" />
-              <div class="space25"></div>
-              <p>© 2011 - <?=date('Y')?> Marine Monkees. All rights reserved.</p>
-              <p><small><i class="fa fa-code"></i> by kohb beef</small></p>
-              <div class="space30"></div>
-              <ul class="social social-bg social-s">
-                <li><a href="https://www.instagram.com/marinemonkees/"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="https://www.facebook.com/MMonkees/"><i class="fa fa-facebook-f"></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCP0qmYNDZ4yrVG8IPAH5-VA"><i class="fa fa-youtube"></i></a></li>
-              </ul>
+        <?php
+        $model = $this->params['model'];
+        ?>
+        <div class="wrapper light-wrapper">
+          <div class="modal inverse-text modal-transparent faded" id="contact-us" tabindex="-1" role="dialog"> <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"></a>
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <?= $this->render('//layouts/_contact_us', [
+                    'model' => $model
+                ]); ?>
+              </div>
             </div>
-            <!-- /.container -->
           </div>
-          <!-- /.sub-footer -->
-        </footer>
-        <!-- footer /.dark-wrapper -->
+        </div>
+        <!-- /.wrapper -->
+
+        <?= $this->render('//layouts/_footer'); ?>
 
     </div>
 

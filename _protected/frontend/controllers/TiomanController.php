@@ -3,6 +3,11 @@ namespace frontend\controllers;
 
 use common\models\User;
 use common\models\LoginForm;
+use common\models\MersingSchedule;
+use common\models\MersingScheduleSearch;
+use common\models\TgGemukSchedule;
+use common\models\TgGemukScheduleSearch;
+
 use frontend\models\AccountActivation;
 use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
@@ -54,7 +59,46 @@ class TiomanController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $searchModel = new MersingScheduleSearch();
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
+        $dataProvider->sort = false;
+
+        $searchModel2 = new TgGemukScheduleSearch();
+        $dataProvider2 = $searchModel2->search(Yii::$app->request->queryParams);
+        $dataProvider2->sort = false;
+
+        $model = new ContactForm();
+        $this->view->params['model'] = $model;
+
+        if ($model->load(Yii::$app->request->post()) && $model->validate())
+        {
+            if ($model->contact(Yii::$app->params['adminEmail']))
+            {
+                Yii::$app->session->setFlash('success',
+                    'Thank you for contacting us. We will respond to you as soon as possible.');
+            }
+            else
+            {
+                Yii::$app->session->setFlash('error', 'There was an error sending email.');
+            }
+
+            return $this->refresh();
+
+        }
+
+        if($model->load(Yii::$app->request->post()) && !$model->validate()){
+            Yii::$app->session->setFlash('error', 'There was an error in your form. Kindly check the contact form again.');
+        }
+
+        return $this->render('index', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $dataProvider,
+            'searchModel2' => $searchModel2,
+            'dataProvider2' => $dataProvider2,
+            'model' => $model
+        ]);
+
+
     }
 
 }

@@ -5,7 +5,7 @@ use yii\helpers\Url;
 <div class="wrapper light-wrapper">
   <div class="container inner">
     <!-- <h2 class="section-title mb-40 text-center">Why scuba dive?</h2> -->
-    <h2 class="section-title mb-40 text-center">Why scuba dive? <span class="typer" data-delay="100" data-delim=":" data-words="Why not?:Escape.:Explore.:Experience."></span><span class="cursor" data-owner="typer"></span> </h2>
+    <h2 class="section-title mb-40 text-center">Why scuba dive? <br><span class="typer" data-delay="100" data-delim=":" data-words="Why not?:Escape.:Explore.:Experience."></span><span class="cursor" data-owner="typer"></span> </h2>
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <p>

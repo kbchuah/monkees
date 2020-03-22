@@ -75,12 +75,12 @@ $this->title = Yii::t('app', Yii::$app->name) . ' | ' . Yii::t('app', 'FAQ');
           <!-- /.card -->
           <div class="card">
             <div class="card-header">
-              <h3> <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse1-4">Is there any promotional offers?</a></h3>
+              <h3> <a class="collapsed" data-toggle="collapse" data-parent="#accordion1" href="#collapse1-4">Are there any promotional offers?</a></h3>
             </div>
             <!-- /.card-header -->
             <div id="collapse1-4" class="collapse">
               <div class="card-block">
-                <p>We advertise promotional offers through out the year. If there is any ongoing offer then it will be posted on our websites main page. However, if you have your own equipment, we offer a discount price on all fun dives. </p>
+                <p>We advertise promotional offers through out the year. If there is any ongoing offer then it will be posted on our website's <a href="<?= Url::to(['/']) ?>">main page</a> or <a href="<?= Url::to(['promotion/']) ?>">promotion</a> page. However, if you have your own equipment, we offer a discount price on all fun dives. </p>
               </div>
               <!-- /.card-block -->
             </div>

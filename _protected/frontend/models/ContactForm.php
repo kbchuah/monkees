@@ -11,6 +11,7 @@ class ContactForm extends Model
 {
     public $name;
     public $email;
+    public $phone;
     public $subject;
     public $body;
     public $verifyCode;
@@ -23,9 +24,8 @@ class ContactForm extends Model
     public function rules()
     {
         return [
-            [['name', 'email', 'subject', 'body', 'verifyCode'], 'required'],
+            [['name', 'email', 'subject', 'body', 'phone'], 'required'],
             ['email', 'email'],
-            ['verifyCode', 'captcha'],
         ];
     }
 
@@ -39,9 +39,9 @@ class ContactForm extends Model
         return [
             'name'=> Yii::t('app', 'Name'),
             'email' => Yii::t('app', 'Email'),
+            'phone' => Yii::t('app', 'Phone'),
             'subject' => Yii::t('app', 'Subject'),
             'body' => Yii::t('app', 'Text'),
-            'verifyCode' => Yii::t('app', 'Verification Code'),
         ];
     }
 

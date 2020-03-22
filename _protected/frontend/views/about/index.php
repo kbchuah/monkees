@@ -22,11 +22,9 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
             <!-- <p>Marine Monkees’s idea is simple – NOBODY DIVES ALONE… But with the Monkees, we take it beyond that. Honestly, it’s not just the diving, it’s the whole trip. Sightings of whale sharks, barracudas, turtles, mantas and watching cuttlefish mate are just bonuses. Did we say Whale Sharks? ehhmmmm… Yeappp, Whale Shark was sighted at our very own bay late 2016! Anyways, It’s the experiences of being able to share that with a bunch of friends that makes up the fun!  In scuba diving, every diver is taught to dive with a buddy, but with the Marine Monkees, we dive with friends! So, yes, <b>NOBODY DIVES ALONE</b></p> -->
             <div class="space20"></div>
             <ul class="social social-mute social-m">
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-              <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.instagram.com/marinemonkees/"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.facebook.com/MMonkees/"><i class="fa fa-facebook-f"></i></a></li>
+              <li><a href="https://www.youtube.com/channel/UCP0qmYNDZ4yrVG8IPAH5-VA"><i class="fa fa-youtube"></i></a></li>
             </ul>
             <div class="space20"></div>
           </div>
@@ -52,7 +50,8 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
       <div class="row">
         <div class="col-md-6">
           <div class="box">
-            <h2 class="section-title mb-40 text-center">Our Idea | <span class="typer" data-delay="100" data-delim=":" data-words="NOBODY:DIVES:ALONE"></span><span class="cursor" data-owner="typer"></span> </h2>
+            <h2 class="section-title mb-40 text-center hide-md">Our Idea | <span class="typer" data-delay="100" data-delim=":" data-words="NOBODY:DIVES:ALONE"></span><span class="cursor" data-owner="typer"></span> </h2>
+            <h2 class="section-title mb-40 text-center show-md">Our Idea | <br><span class="typer" data-delay="100" data-delim=":" data-words="NOBODY:DIVES:ALONE"></span><span class="cursor" data-owner="typer"></span> </h2>
             <p><span class="dropcap color-sky">M</span>arine Monkees’s idea is simple – NOBODY DIVES ALONE… But with the Monkees, we take it beyond that. Honestly, it’s not just the diving, it’s the whole trip. Sightings of whale sharks, barracudas, turtles, mantas and watching cuttlefish mate are just bonuses. Did we say Whale Sharks? ehhmmmm… Yeappp, Whale Shark was sighted at our very own bay late 2016! Anyways, It’s the experiences of being able to share that with a bunch of friends that makes up the fun!  In scuba diving, every diver is taught to dive with a buddy, but with the Marine Monkees, we dive with friends! So, yes, <b>NOBODY DIVES ALONE</b></p>
             <div class="space20"></div>
           </div>
@@ -67,7 +66,7 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
 </div>
 <!-- /.wrapper -->
 
-<div class="wrapper light-wrapper">
+<div class="wrapper light-wrapper about-instructors">
   <div class="container inner">
     <h2 class="section-title mb-40 text-center">Our Instructors</h2>
     <div class="row text-center">
@@ -201,127 +200,6 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
       <!--/column -->
     </div>
     <!--/.row -->
-
-    <?php /*
-    <div class="space10"></div>
-    <div class="grid list-view">
-      <div class="row isotope">
-        <div class="item grid-sizer col-md-6">
-          <div class="row">
-            <div class="col-lg-5">
-              <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-            </div>
-            <!--/column -->
-            <div class="space25 d-none d-md-block d-lg-none"></div>
-            <div class="col-lg-7">
-              <h5 class="mb-5">Koh Beng</h5>
-              <div class="meta">Art Director</div>
-              <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-              <ul class="social social-color social-s">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-              </ul>
-            </div>
-            <!--/column -->
-          </div>
-          <!--/.row -->
-        </div>
-        <!-- /.post -->
-        <div class="item grid-sizer col-md-6">
-          <div class="row">
-            <div class="col-lg-5">
-              <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t2.jpg" alt="" /></figure>
-            </div>
-            <!--/column -->
-            <div class="space25 d-none d-md-block d-lg-none"></div>
-            <div class="col-lg-7">
-              <h5 class="mb-5">Dani Teo</h5>
-              <div class="meta">Photographer</div>
-              <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor adipiscing.</p>
-              <ul class="social social-color social-s">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-              </ul>
-            </div>
-            <!--/column -->
-          </div>
-          <!--/.row -->
-        </div>
-        <!-- /.post -->
-        <div class="item grid-sizer col-md-6">
-          <div class="row">
-            <div class="col-lg-5">
-              <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t3.jpg" alt="" /></figure>
-            </div>
-            <!--/column -->
-            <div class="space25 d-none d-md-block d-lg-none"></div>
-            <div class="col-lg-7">
-              <h5 class="mb-5">Loris Salvato</h5>
-              <div class="meta">Photographer & Editor</div>
-              <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.</p>
-              <ul class="social social-color social-s">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-            </div>
-            <!--/column -->
-          </div>
-          <!--/.row -->
-        </div>
-        <!-- /.post -->
-        <div class="item grid-sizer col-md-6">
-          <div class="row">
-            <div class="col-lg-5">
-              <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t4.jpg" alt="" /></figure>
-            </div>
-            <!--/column -->
-            <div class="space25 d-none d-md-block d-lg-none"></div>
-            <div class="col-lg-7">
-              <h5 class="mb-5">Angah</h5>
-              <div class="meta">Videographer</div>
-              <p>Fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur.</p>
-              <ul class="social social-color social-s">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-              </ul>
-            </div>
-            <!--/column -->
-          </div>
-          <!--/.row -->
-        </div>
-        <!-- /.post -->
-        <div class="item grid-sizer col-md-6">
-          <div class="row">
-            <div class="col-lg-5">
-              <figure><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/t1.jpg" alt="" /></figure>
-            </div>
-            <!--/column -->
-            <div class="space25 d-none d-md-block d-lg-none"></div>
-            <div class="col-lg-7">
-              <h5 class="mb-5">Ezu Mat Jamal</h5>
-              <div class="meta">Art Director</div>
-              <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-              <ul class="social social-color social-s">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-              </ul>
-            </div>
-            <!--/column -->
-          </div>
-          <!--/.row -->
-        </div>
-        <!-- /.post -->
-      </div>
-      <!-- /.row -->
-    </div>
-    */ ?>
-
-    <!-- /.grid -->
   </div>
   <!-- /.container -->
 </div>
@@ -334,40 +212,7 @@ $this->title = Yii::t('app', Yii::$app->name). ' | ' .Yii::t('app', 'About Us');
 <div class="wrapper dark-wrapper inverse-text">
   <div class="inner pt-60 pb-60">
     <!-- <h2 class="section-title mb-30 text-center">Our Memories</h2> -->
-    <div class="swiper-container-wrapper swiper-auto light-gallery" data-aos="fade">
-      <div class="swiper-container text-center">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-fun.png" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive-center.png" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-learn.png" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive3.jpg" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive-center2.png" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-crew.png" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive2.jpg" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-tank.png" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-in-action.png" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-dive.png" alt="" /> </div>
-          <!-- .swiper-slide -->
-          <div class="swiper-slide"><img src="<?=Yii::getAlias('@web')?>/themes/brailie/style/images/art/monkees-padi.png" alt="" /> </div>
-          <!-- .swiper-slide -->
-        </div>
-        <!-- .swiper-wrapper -->
-      </div>
-      <!-- .swiper-container -->
-      <div class="swiper-pagination gap-large"></div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-    <!-- .swiper-container-wrapper -->
+    <?= $this->render('//layouts/_gallery'); ?>
   </div>
   <!-- /.inner -->
 </div>

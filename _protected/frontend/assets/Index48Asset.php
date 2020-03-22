@@ -39,7 +39,7 @@ class Index48Asset extends AssetBundle
         'style.css',
         'style/css/color/sky.css',
         'https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i',
-        'custom.css',
+        'custom.css?v=1.0.0',
     ];
 
     public $js = [

@@ -1,5 +1,5 @@
 <?php
 return [
-    'adminEmail' => 'admin@example.com',
+    'adminEmail' => 'chuahkohbeng@gmail.com',
     'pathThemesBrailie' => 'themes/brailie',
 ];

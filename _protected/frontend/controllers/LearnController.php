@@ -54,7 +54,32 @@ class LearnController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $model = new ContactForm();
+        $this->view->params['model'] = $model;
+
+        if ($model->load(Yii::$app->request->post()) && $model->validate())
+        {
+            if ($model->contact(Yii::$app->params['adminEmail']))
+            {
+                Yii::$app->session->setFlash('success',
+                    'Thank you for contacting us. We will respond to you as soon as possible.');
+            }
+            else
+            {
+                Yii::$app->session->setFlash('error', 'There was an error sending email.');
+            }
+
+            return $this->refresh();
+
+        }
+
+        if($model->load(Yii::$app->request->post()) && !$model->validate()){
+            Yii::$app->session->setFlash('error', 'There was an error in your form. Kindly check the contact form again.');
+        }
+
+        return $this->render('index', [
+          'model' => $model
+        ]);
     }
 
 }

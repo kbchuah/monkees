@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar-brand img {
     height: 60px;
 }
@@ -85,6 +89,17 @@
    /* color: #888; */
 }
 
+.timeline-block-left .timeline-content h3{
+   direction: ltr;
+}
+
+.hide-md {
+   display: block;
+}
+
+.show-md {
+   display: none;
+}
 
 @media screen and (max-width: 768px) {
    .container-timeline:before {
@@ -103,4 +118,49 @@
       float: none;
       direction: ltr;
    }
+
+   .hide-md {
+      display: none;
+   }
+
+   .show-md {
+      display: block;
+   }
 }
+
+.table tbody {
+    border-bottom: inherit;
+}
+
+.inverse-text p.help-block-error {
+    color: salmon !important;
+}
+
+.alert {
+    margin: 0;
+}
+
+.about-instructors img {
+    width: 100%;
+}
+
+.fixed-bg-mobile {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.image-wrapper.mobile {
+    background-image: none !important
+}
+
+/* .image-wrapper.mobile {
+    background-attachment: fixed !important;
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
